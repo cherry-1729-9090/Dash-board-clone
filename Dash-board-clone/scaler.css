@@ -1,0 +1,450 @@
+@media (max-width: 322px) {
+    nav {
+      padding: 10px;
+    }
+    #logo {
+      height: 60%;
+    }
+    .right-nav {
+      margin-left: 10px;
+    }
+    .symbols img {
+      margin-right: 10px;
+    }
+
+  }
+  @media (max-width : 923px) {
+    .body-left{
+      width: 100%;
+    }
+    .left-top{
+      width: 100%;
+    }
+    .date{
+      margin : 10px;
+      width: 80px;
+      color: #334350;
+    }
+    .class{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 75px;
+      padding: 10px;
+      border: 1px solid black;
+      margin-right: 10px;
+      border-radius: 10px;
+  }
+  }
+
+
+
+/* body styling */
+  body {
+    margin: 0px;
+    height: 1000px;
+    padding-top: 85px;
+  }
+
+  /* navigtaion bar */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(229, 244, 252);
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /*burgar icon  */
+  .small-burgar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 38px;
+    height: 40%;
+  }
+
+/* Lines in bubrgar icon */
+  .line {
+    width: 1.5cap;
+    height: 2.5px;
+    background-color: rgb(113, 110, 110);
+    margin: 2px;
+  }
+
+
+/* logo  */
+  #logo {
+    width: 130px;
+    height: 75%;
+  }
+ /* logo + icons */
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+  }
+  .symbols {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    margin-right: 2px;
+  }
+  
+  /* Settings */
+  .right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+  }
+  .profile {
+    padding: 8px;
+  }
+  .selection {
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .body {
+    margin: 25px;
+    font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif !important;
+    color: #334350;
+  }
+
+
+
+  /* left part of the body */
+ .body-left{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+ }
+
+ /* it is for the dates section */
+  .left-top {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 equal-width columns */
+    width: 60%;
+    padding: 7px;
+    column-gap: 30px;
+    margin-left: 0px;
+}
+  .dates{
+    width : 45%;
+    display: flex;
+    justify-content: space-around;
+    color: #334350 ;
+    margin-left: 25px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .date {
+    width: 100px; 
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    color: #334350;
+    margin-right: 25px;
+    font-size: 15px;
+}
+  .date a{
+    text-decoration: none;
+    color: #334350;
+  }
+  .date a:hover{
+    color: rgb(123, 123, 242);
+    transition: 0.3s ease;
+  }
+
+  /* This is the classes section */
+.left-middle-1{
+  display: flex;
+  flex: 1;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+
+/* His is for underline */
+  .underline #underline{
+    display: flex;
+    flex: 1;
+    white-space: nowrap;
+    height: 0.2px;
+    width: 95%;
+    border:1px solid #d6dce1 ;
+  }
+  .classes{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: auto;
+    height: 20%;
+    overflow-x: hidden;
+    padding: 10px;
+  }
+  .classes::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  .class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    border: 1px  #010b12;
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.1);
+    margin-right: 10px;
+    border-radius: 2px;
+  }
+
+
+  .class{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(235, 243, 247, 0.524);
+    height: 100px;
+    border-radius: 5px;
+
+  }
+  .class_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 80%;
+  }
+  .class_name span{
+    margin-right: 30px;
+    font-size: medium;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .Live_class{
+    display: flex;
+    margin-top: 5px;
+    justify-content: start;
+    width: 100%;
+  }
+  .Live_class span{
+    justify-self: flex-start;
+    font-size: x-small;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    padding-right: 20px;
+  }
+  .date_details{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .Time{
+    margin-right: 5dvh;
+  }
+  .Time span{
+    font-size: smaller;
+  }
+  .Details a {
+    text-decoration: none;
+    font-size: smaller;
+  }
+/* css for each class box is done */
+
+/* previous-class-videos */
+  .Prev_header{
+    display: block;
+    margin-top: 10px;
+  }
+.prev_classes{
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 5px;
+  overflow-x:scroll;
+  column-gap: 15px;
+}
+.revision{
+  width: 350px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 60% 40%;
+  color: #334350;
+}
+.rev_above{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  height: 100%;
+  width: 100%;
+ padding: auto;
+  flex-direction: column;
+  background-color: rgb(184, 244, 224);
+}
+.rev_top{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 5px;
+  margin-right: 15px;
+  color:#fff;
+  padding: 8px 5px;
+}
+.rev_top span{
+  font-size: larger;
+}
+.name_of-rev{
+  width: 95%;
+  height: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  
+}
+.date_rev{
+  width: 95%;
+  height: 20px;
+  padding-left: 20px;
+  margin: 0px;
+}
+  
+.rev_below{
+  display: flex;
+  background-color: rgb(235, 243, 247);
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#name_of-rev{
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  margin-left: 15px;
+}
+#Attendance{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.loading-bar{
+  margin: 5px;
+  height: 5px;
+  width: 90%;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+.revision1{
+  background-color: rgb(184, 244, 224);
+}
+.revision2{
+  background-color: rgb(62, 164, 218);
+}
+.revision3{
+  background-color: rgb(214, 171, 118);
+}
+.revision4{
+  background-color: rgb(184, 244, 224);
+}
+
+/* Practice section */
+.Practice_header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.Practice_header h5 a{
+  text-decoration: none;
+  color: rgb(83, 193, 230);
+}
+
+.Problems{
+  margin-top: 0px;
+}
+.problems{
+  display: grid;
+  width: 30%;
+  grid-template-columns: repeat(3,4fr);
+  column-width: 50px;
+  font-size: small;
+}
+.problem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  flex : 1;
+  white-space: nowrap;
+}
+.problem a {
+  text-decoration: none;
+  color: #334350;
+}
+.problem a:hover{
+  color: rgb(123, 123, 242);
+}
+.body-right {
+    display: flex;
+}
+.Questions{
+  margin-top: 5px;
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(4,4fr);
+  column-gap: 8px;
+}
+.question_box{
+  display: flex;
+  flex: 1;
+  white-space: nowrap;
+  align-items: center;
+  flex-direction: column;
+  font-size:smaller;
+  padding: 8px;
+  height: 100px;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 0.5px solid rgba(235, 229, 229, 0.74);
+  background-color: #ecf2f7;
+}
+.question_box1{
+  background-color: rgb(249, 235, 220);
+}
+.question_save{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.topic{
+  margin-right: 90px;
+}
+.difficulty_level{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.difficulty_level div{
+  font-size: 10px;
+}
+.Images{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

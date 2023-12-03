@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.004" height="9.062" viewBox="0 0 17.004 9.062">
+    <defs>
+        <style>
+            .cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Score" transform="translate(-16.5 -60.938)">
+        <path id="Path_16034" fill="none" stroke="#94a0b5" stroke-linecap="round" d="M17 69c0-.813 1.449-7.562 8.036-7.562S33 68.074 33 69"/>
+        <g id="Polygon_72" fill="#fff">
+            <path d="M3.306 5.5H.694L2 1.581 3.306 5.5z" class="cls-4" transform="rotate(45 -61.547 64.677)"/>
+            <path fill="#94a0b5" d="M2 3.162L1.387 5h1.226L2 3.162M2 0l2 6H0l2-6z" transform="rotate(45 -61.547 64.677)"/>
+        </g>
+        <g id="Ellipse_843" fill="#fff" stroke="#94a0b5" transform="translate(23 66)">
+            <circle cx="2" cy="2" r="2" class="cls-4"/>
+            <circle cx="2" cy="2" r="1.5" fill="none"/>
+        </g>
+    </g>
+</svg>
